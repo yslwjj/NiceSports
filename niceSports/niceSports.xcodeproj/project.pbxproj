@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4576CFAF1B5DE7510086624C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4576CFAD1B5DE7510086624C /* Main.storyboard */; };
 		4576CFB11B5DE7510086624C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4576CFB01B5DE7510086624C /* Images.xcassets */; };
 		4576CFB41B5DE7510086624C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4576CFB21B5DE7510086624C /* LaunchScreen.xib */; };
 		4576CFC01B5DE7510086624C /* niceSportsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFBF1B5DE7510086624C /* niceSportsTests.m */; };
 		4576CFE11B5DEB570086624C /* SAMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFD71B5DEB570086624C /* SAMMainViewController.m */; };
-		4576CFE21B5DEB570086624C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFDF1B5DEB570086624C /* AppDelegate.m */; };
-		4576CFE31B5DEB570086624C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFE01B5DEB570086624C /* main.m */; };
+		4576CFEB1B5E1F510086624C /* SAMGuideTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFE71B5E1F510086624C /* SAMGuideTool.m */; };
+		4576CFEC1B5E1F510086624C /* SAMSaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFEA1B5E1F510086624C /* SAMSaveTool.m */; };
+		4576CFF51B5E1FEA0086624C /* SAMNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFF01B5E1FEA0086624C /* SAMNewFeatureViewController.m */; };
+		4576CFF61B5E1FEA0086624C /* SAMGuideViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFF41B5E1FEA0086624C /* SAMGuideViewCell.m */; };
+		4576D0011B5E20AC0086624C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFF91B5E20AC0086624C /* AppDelegate.m */; };
+		4576D0021B5E20AC0086624C /* UIImage+SAMImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFFC1B5E20AC0086624C /* UIImage+SAMImage.m */; };
+		4576D0031B5E20AC0086624C /* UIView+SAMFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFFE1B5E20AC0086624C /* UIView+SAMFrame.m */; };
+		4576D0041B5E20AD0086624C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFFF1B5E20AC0086624C /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +34,6 @@
 /* Begin PBXFileReference section */
 		4576CFA01B5DE7510086624C /* niceSports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = niceSports.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4576CFA41B5DE7510086624C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4576CFAE1B5DE7510086624C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4576CFB01B5DE7510086624C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4576CFB31B5DE7510086624C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4576CFB91B5DE7510086624C /* niceSportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = niceSportsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,9 +41,22 @@
 		4576CFBF1B5DE7510086624C /* niceSportsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = niceSportsTests.m; sourceTree = "<group>"; };
 		4576CFD61B5DEB570086624C /* SAMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMMainViewController.h; sourceTree = "<group>"; };
 		4576CFD71B5DEB570086624C /* SAMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMMainViewController.m; sourceTree = "<group>"; };
-		4576CFDE1B5DEB570086624C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4576CFDF1B5DEB570086624C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4576CFE01B5DEB570086624C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4576CFE61B5E1F510086624C /* SAMGuideTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMGuideTool.h; sourceTree = "<group>"; };
+		4576CFE71B5E1F510086624C /* SAMGuideTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMGuideTool.m; sourceTree = "<group>"; };
+		4576CFE91B5E1F510086624C /* SAMSaveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMSaveTool.h; sourceTree = "<group>"; };
+		4576CFEA1B5E1F510086624C /* SAMSaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMSaveTool.m; sourceTree = "<group>"; };
+		4576CFEF1B5E1FEA0086624C /* SAMNewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMNewFeatureViewController.h; sourceTree = "<group>"; };
+		4576CFF01B5E1FEA0086624C /* SAMNewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMNewFeatureViewController.m; sourceTree = "<group>"; };
+		4576CFF31B5E1FEA0086624C /* SAMGuideViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMGuideViewCell.h; sourceTree = "<group>"; };
+		4576CFF41B5E1FEA0086624C /* SAMGuideViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMGuideViewCell.m; sourceTree = "<group>"; };
+		4576CFF81B5E20AC0086624C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4576CFF91B5E20AC0086624C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4576CFFB1B5E20AC0086624C /* UIImage+SAMImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SAMImage.h"; sourceTree = "<group>"; };
+		4576CFFC1B5E20AC0086624C /* UIImage+SAMImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SAMImage.m"; sourceTree = "<group>"; };
+		4576CFFD1B5E20AC0086624C /* UIView+SAMFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SAMFrame.h"; sourceTree = "<group>"; };
+		4576CFFE1B5E20AC0086624C /* UIView+SAMFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SAMFrame.m"; sourceTree = "<group>"; };
+		4576CFFF1B5E20AC0086624C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4576D0001B5E20AC0086624C /* 彩票.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "彩票.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				4576CFC91B5DEB570086624C /* classes */,
-				4576CFAD1B5DE7510086624C /* Main.storyboard */,
 				4576CFB01B5DE7510086624C /* Images.xcassets */,
 				4576CFB21B5DE7510086624C /* LaunchScreen.xib */,
 				4576CFA31B5DE7510086624C /* Supporting Files */,
@@ -118,12 +134,14 @@
 		4576CFC91B5DEB570086624C /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				4576CFF71B5E20AC0086624C /* Other */,
+				4576CFED1B5E1FEA0086624C /* NewFeature(新特性页面) */,
+				4576CFE41B5E1F510086624C /* Tool(业务类) */,
 				4576CFCA1B5DEB570086624C /* Activity */,
 				4576CFCD1B5DEB570086624C /* Discover */,
 				4576CFD01B5DEB570086624C /* Friends */,
 				4576CFD31B5DEB570086624C /* Main */,
 				4576CFD81B5DEB570086624C /* Me */,
-				4576CFDB1B5DEB570086624C /* Other */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -245,30 +263,89 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		4576CFDB1B5DEB570086624C /* Other */ = {
+		4576CFE41B5E1F510086624C /* Tool(业务类) */ = {
 			isa = PBXGroup;
 			children = (
-				4576CFDC1B5DEB570086624C /* view */,
-				4576CFDD1B5DEB570086624C /* ViewController */,
+				4576CFE51B5E1F510086624C /* Guide */,
+				4576CFE81B5E1F510086624C /* Save */,
+			);
+			path = "Tool(业务类)";
+			sourceTree = "<group>";
+		};
+		4576CFE51B5E1F510086624C /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				4576CFE61B5E1F510086624C /* SAMGuideTool.h */,
+				4576CFE71B5E1F510086624C /* SAMGuideTool.m */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		4576CFE81B5E1F510086624C /* Save */ = {
+			isa = PBXGroup;
+			children = (
+				4576CFE91B5E1F510086624C /* SAMSaveTool.h */,
+				4576CFEA1B5E1F510086624C /* SAMSaveTool.m */,
+			);
+			path = Save;
+			sourceTree = "<group>";
+		};
+		4576CFED1B5E1FEA0086624C /* NewFeature(新特性页面) */ = {
+			isa = PBXGroup;
+			children = (
+				4576CFEE1B5E1FEA0086624C /* Controller */,
+				4576CFF11B5E1FEA0086624C /* Model */,
+				4576CFF21B5E1FEA0086624C /* View */,
+			);
+			path = "NewFeature(新特性页面)";
+			sourceTree = "<group>";
+		};
+		4576CFEE1B5E1FEA0086624C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4576CFEF1B5E1FEA0086624C /* SAMNewFeatureViewController.h */,
+				4576CFF01B5E1FEA0086624C /* SAMNewFeatureViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4576CFF11B5E1FEA0086624C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4576CFF21B5E1FEA0086624C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4576CFF31B5E1FEA0086624C /* SAMGuideViewCell.h */,
+				4576CFF41B5E1FEA0086624C /* SAMGuideViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4576CFF71B5E20AC0086624C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4576CFF81B5E20AC0086624C /* AppDelegate.h */,
+				4576CFF91B5E20AC0086624C /* AppDelegate.m */,
+				4576CFFA1B5E20AC0086624C /* Categoty */,
+				4576CFFF1B5E20AC0086624C /* main.m */,
+				4576D0001B5E20AC0086624C /* 彩票.pch */,
 			);
 			path = Other;
 			sourceTree = "<group>";
 		};
-		4576CFDC1B5DEB570086624C /* view */ = {
+		4576CFFA1B5E20AC0086624C /* Categoty */ = {
 			isa = PBXGroup;
 			children = (
+				4576CFFB1B5E20AC0086624C /* UIImage+SAMImage.h */,
+				4576CFFC1B5E20AC0086624C /* UIImage+SAMImage.m */,
+				4576CFFD1B5E20AC0086624C /* UIView+SAMFrame.h */,
+				4576CFFE1B5E20AC0086624C /* UIView+SAMFrame.m */,
 			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		4576CFDD1B5DEB570086624C /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4576CFDE1B5DEB570086624C /* AppDelegate.h */,
-				4576CFDF1B5DEB570086624C /* AppDelegate.m */,
-				4576CFE01B5DEB570086624C /* main.m */,
-			);
-			path = ViewController;
+			path = Categoty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,7 +429,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4576CFAF1B5DE7510086624C /* Main.storyboard in Resources */,
 				4576CFB41B5DE7510086624C /* LaunchScreen.xib in Resources */,
 				4576CFB11B5DE7510086624C /* Images.xcassets in Resources */,
 			);
@@ -372,8 +448,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4576CFE21B5DEB570086624C /* AppDelegate.m in Sources */,
-				4576CFE31B5DEB570086624C /* main.m in Sources */,
+				4576CFF51B5E1FEA0086624C /* SAMNewFeatureViewController.m in Sources */,
+				4576D0021B5E20AC0086624C /* UIImage+SAMImage.m in Sources */,
+				4576CFEB1B5E1F510086624C /* SAMGuideTool.m in Sources */,
+				4576D0011B5E20AC0086624C /* AppDelegate.m in Sources */,
+				4576D0031B5E20AC0086624C /* UIView+SAMFrame.m in Sources */,
+				4576CFEC1B5E1F510086624C /* SAMSaveTool.m in Sources */,
+				4576CFF61B5E1FEA0086624C /* SAMGuideViewCell.m in Sources */,
+				4576D0041B5E20AD0086624C /* main.m in Sources */,
 				4576CFE11B5DEB570086624C /* SAMMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,14 +479,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4576CFAD1B5DE7510086624C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4576CFAE1B5DE7510086624C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4576CFB21B5DE7510086624C /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

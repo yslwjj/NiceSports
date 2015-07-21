@@ -1,0 +1,20 @@
+//
+//  彩票.pch
+//  彩票
+//
+//  Created by 杨森 on 15/6/27.
+//  Copyright (c) 2015年 samyang. All rights reserved.
+//
+
+
+
+#import "UIImage+SAMImage.h"
+
+#define SAMKeyWindow [UIApplication sharedApplication].keyWindow
+#define SAMScreenBounds [UIScreen mainScreen].bounds
+#define SAMScreenW SAMScreenBounds.size.width
+#define SAMScreenH SAMScreenBounds.size.height
+#define SAMColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+
+
+#import "UIView+SAMFrame.h"
