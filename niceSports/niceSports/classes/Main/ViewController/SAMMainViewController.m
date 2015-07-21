@@ -6,13 +6,13 @@
 //  Copyright (c) 2015年 samyang. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SAMMainViewController.h"
 
-@interface ViewController ()
+@interface SAMMainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SAMMainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

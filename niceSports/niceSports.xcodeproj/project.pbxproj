@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4576CFA61B5DE7510086624C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFA51B5DE7510086624C /* main.m */; };
-		4576CFA91B5DE7510086624C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFA81B5DE7510086624C /* AppDelegate.m */; };
-		4576CFAC1B5DE7510086624C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFAB1B5DE7510086624C /* ViewController.m */; };
 		4576CFAF1B5DE7510086624C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4576CFAD1B5DE7510086624C /* Main.storyboard */; };
 		4576CFB11B5DE7510086624C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4576CFB01B5DE7510086624C /* Images.xcassets */; };
 		4576CFB41B5DE7510086624C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4576CFB21B5DE7510086624C /* LaunchScreen.xib */; };
 		4576CFC01B5DE7510086624C /* niceSportsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFBF1B5DE7510086624C /* niceSportsTests.m */; };
+		4576CFE11B5DEB570086624C /* SAMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFD71B5DEB570086624C /* SAMMainViewController.m */; };
+		4576CFE21B5DEB570086624C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFDF1B5DEB570086624C /* AppDelegate.m */; };
+		4576CFE31B5DEB570086624C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFE01B5DEB570086624C /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,17 +29,17 @@
 /* Begin PBXFileReference section */
 		4576CFA01B5DE7510086624C /* niceSports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = niceSports.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4576CFA41B5DE7510086624C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4576CFA51B5DE7510086624C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4576CFA71B5DE7510086624C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4576CFA81B5DE7510086624C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4576CFAA1B5DE7510086624C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4576CFAB1B5DE7510086624C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4576CFAE1B5DE7510086624C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4576CFB01B5DE7510086624C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4576CFB31B5DE7510086624C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4576CFB91B5DE7510086624C /* niceSportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = niceSportsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4576CFBE1B5DE7510086624C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4576CFBF1B5DE7510086624C /* niceSportsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = niceSportsTests.m; sourceTree = "<group>"; };
+		4576CFD61B5DEB570086624C /* SAMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMMainViewController.h; sourceTree = "<group>"; };
+		4576CFD71B5DEB570086624C /* SAMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMMainViewController.m; sourceTree = "<group>"; };
+		4576CFDE1B5DEB570086624C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4576CFDF1B5DEB570086624C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4576CFE01B5DEB570086624C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +81,7 @@
 		4576CFA21B5DE7510086624C /* niceSports */ = {
 			isa = PBXGroup;
 			children = (
-				4576CFA71B5DE7510086624C /* AppDelegate.h */,
-				4576CFA81B5DE7510086624C /* AppDelegate.m */,
-				4576CFAA1B5DE7510086624C /* ViewController.h */,
-				4576CFAB1B5DE7510086624C /* ViewController.m */,
+				4576CFC91B5DEB570086624C /* classes */,
 				4576CFAD1B5DE7510086624C /* Main.storyboard */,
 				4576CFB01B5DE7510086624C /* Images.xcassets */,
 				4576CFB21B5DE7510086624C /* LaunchScreen.xib */,
@@ -97,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				4576CFA41B5DE7510086624C /* Info.plist */,
-				4576CFA51B5DE7510086624C /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +113,162 @@
 				4576CFBE1B5DE7510086624C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4576CFC91B5DEB570086624C /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				4576CFCA1B5DEB570086624C /* Activity */,
+				4576CFCD1B5DEB570086624C /* Discover */,
+				4576CFD01B5DEB570086624C /* Friends */,
+				4576CFD31B5DEB570086624C /* Main */,
+				4576CFD81B5DEB570086624C /* Me */,
+				4576CFDB1B5DEB570086624C /* Other */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		4576CFCA1B5DEB570086624C /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				4576CFCB1B5DEB570086624C /* view */,
+				4576CFCC1B5DEB570086624C /* ViewController */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		4576CFCB1B5DEB570086624C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4576CFCC1B5DEB570086624C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4576CFCD1B5DEB570086624C /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				4576CFCE1B5DEB570086624C /* view */,
+				4576CFCF1B5DEB570086624C /* ViewController */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		4576CFCE1B5DEB570086624C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4576CFCF1B5DEB570086624C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4576CFD01B5DEB570086624C /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				4576CFD11B5DEB570086624C /* view */,
+				4576CFD21B5DEB570086624C /* ViewController */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		4576CFD11B5DEB570086624C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4576CFD21B5DEB570086624C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4576CFD31B5DEB570086624C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4576CFD41B5DEB570086624C /* view */,
+				4576CFD51B5DEB570086624C /* ViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4576CFD41B5DEB570086624C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4576CFD51B5DEB570086624C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4576CFD61B5DEB570086624C /* SAMMainViewController.h */,
+				4576CFD71B5DEB570086624C /* SAMMainViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4576CFD81B5DEB570086624C /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				4576CFD91B5DEB570086624C /* view */,
+				4576CFDA1B5DEB570086624C /* ViewController */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		4576CFD91B5DEB570086624C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4576CFDA1B5DEB570086624C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4576CFDB1B5DEB570086624C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4576CFDC1B5DEB570086624C /* view */,
+				4576CFDD1B5DEB570086624C /* ViewController */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4576CFDC1B5DEB570086624C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4576CFDD1B5DEB570086624C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4576CFDE1B5DEB570086624C /* AppDelegate.h */,
+				4576CFDF1B5DEB570086624C /* AppDelegate.m */,
+				4576CFE01B5DEB570086624C /* main.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +315,7 @@
 		4576CF981B5DE7510086624C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SAM;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = samyang;
 				TargetAttributes = {
@@ -219,9 +372,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4576CFAC1B5DE7510086624C /* ViewController.m in Sources */,
-				4576CFA91B5DE7510086624C /* AppDelegate.m in Sources */,
-				4576CFA61B5DE7510086624C /* main.m in Sources */,
+				4576CFE21B5DEB570086624C /* AppDelegate.m in Sources */,
+				4576CFE31B5DEB570086624C /* main.m in Sources */,
+				4576CFE11B5DEB570086624C /* SAMMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
