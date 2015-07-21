@@ -8,7 +8,7 @@
 
 #import "SAMGuideViewCell.h"
 
-#import "SAMTabBarController.h"
+#import "SAMMainViewController.h"
 
 @interface SAMGuideViewCell ()
 
@@ -69,7 +69,7 @@
 - (void)start
 {
     // 跳转到核心界面，push, modal, 切换根控制器的方法
-    SAMKeyWindow.rootViewController = [[SAMTabBarController alloc] init];
+    SAMKeyWindow.rootViewController = [[SAMMainViewController alloc] init];
     
     CATransition *anim = [CATransition animation];
     anim.duration = 0.5;

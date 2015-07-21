@@ -56,7 +56,7 @@
 		4576CFFD1B5E20AC0086624C /* UIView+SAMFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SAMFrame.h"; sourceTree = "<group>"; };
 		4576CFFE1B5E20AC0086624C /* UIView+SAMFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SAMFrame.m"; sourceTree = "<group>"; };
 		4576CFFF1B5E20AC0086624C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4576D0001B5E20AC0086624C /* 彩票.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "彩票.pch"; sourceTree = "<group>"; };
+		4576D0051B5E23AB0086624C /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,7 +294,6 @@
 			isa = PBXGroup;
 			children = (
 				4576CFEE1B5E1FEA0086624C /* Controller */,
-				4576CFF11B5E1FEA0086624C /* Model */,
 				4576CFF21B5E1FEA0086624C /* View */,
 			);
 			path = "NewFeature(新特性页面)";
@@ -307,13 +306,6 @@
 				4576CFF01B5E1FEA0086624C /* SAMNewFeatureViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		4576CFF11B5E1FEA0086624C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		4576CFF21B5E1FEA0086624C /* View */ = {
@@ -332,7 +324,7 @@
 				4576CFF91B5E20AC0086624C /* AppDelegate.m */,
 				4576CFFA1B5E20AC0086624C /* Categoty */,
 				4576CFFF1B5E20AC0086624C /* main.m */,
-				4576D0001B5E20AC0086624C /* 彩票.pch */,
+				4576D0051B5E23AB0086624C /* prefix.pch */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -574,6 +566,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = niceSports/classes/Other/prefix.pch;
 				INFOPLIST_FILE = niceSports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -584,6 +578,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = niceSports/classes/Other/prefix.pch;
 				INFOPLIST_FILE = niceSports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
