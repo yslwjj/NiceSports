@@ -19,6 +19,12 @@
 		4576D0021B5E20AC0086624C /* UIImage+SAMImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFFC1B5E20AC0086624C /* UIImage+SAMImage.m */; };
 		4576D0031B5E20AC0086624C /* UIView+SAMFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFFE1B5E20AC0086624C /* UIView+SAMFrame.m */; };
 		4576D0041B5E20AD0086624C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFFF1B5E20AC0086624C /* main.m */; };
+		4576D0081B5E2FF40086624C /* SAMActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576D0071B5E2FF40086624C /* SAMActivityViewController.m */; };
+		4576D00B1B5E30070086624C /* SAMDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576D00A1B5E30070086624C /* SAMDiscoverViewController.m */; };
+		4576D00E1B5E301F0086624C /* SAMFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576D00D1B5E301F0086624C /* SAMFriendsViewController.m */; };
+		4576D0111B5E30350086624C /* SAMMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576D0101B5E30350086624C /* SAMMeViewController.m */; };
+		4576D0141B5E30FE0086624C /* SAMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576D0131B5E30FE0086624C /* SAMNavigationController.m */; };
+		4576D0161B5E48200086624C /* Adobe 黑体 Std-R.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4576D0151B5E48200086624C /* Adobe 黑体 Std-R.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +63,17 @@
 		4576CFFE1B5E20AC0086624C /* UIView+SAMFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SAMFrame.m"; sourceTree = "<group>"; };
 		4576CFFF1B5E20AC0086624C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4576D0051B5E23AB0086624C /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		4576D0061B5E2FF40086624C /* SAMActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMActivityViewController.h; sourceTree = "<group>"; };
+		4576D0071B5E2FF40086624C /* SAMActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMActivityViewController.m; sourceTree = "<group>"; };
+		4576D0091B5E30070086624C /* SAMDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMDiscoverViewController.h; sourceTree = "<group>"; };
+		4576D00A1B5E30070086624C /* SAMDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMDiscoverViewController.m; sourceTree = "<group>"; };
+		4576D00C1B5E301F0086624C /* SAMFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMFriendsViewController.h; sourceTree = "<group>"; };
+		4576D00D1B5E301F0086624C /* SAMFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMFriendsViewController.m; sourceTree = "<group>"; };
+		4576D00F1B5E30350086624C /* SAMMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMMeViewController.h; sourceTree = "<group>"; };
+		4576D0101B5E30350086624C /* SAMMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMMeViewController.m; sourceTree = "<group>"; };
+		4576D0121B5E30FE0086624C /* SAMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMNavigationController.h; sourceTree = "<group>"; };
+		4576D0131B5E30FE0086624C /* SAMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMNavigationController.m; sourceTree = "<group>"; };
+		4576D0151B5E48200086624C /* Adobe 黑体 Std-R.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Adobe 黑体 Std-R.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +117,7 @@
 			children = (
 				4576CFC91B5DEB570086624C /* classes */,
 				4576CFB01B5DE7510086624C /* Images.xcassets */,
+				4576D0151B5E48200086624C /* Adobe 黑体 Std-R.otf */,
 				4576CFB21B5DE7510086624C /* LaunchScreen.xib */,
 				4576CFA31B5DE7510086624C /* Supporting Files */,
 			);
@@ -165,6 +183,8 @@
 		4576CFCC1B5DEB570086624C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				4576D0061B5E2FF40086624C /* SAMActivityViewController.h */,
+				4576D0071B5E2FF40086624C /* SAMActivityViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -188,6 +208,8 @@
 		4576CFCF1B5DEB570086624C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				4576D0091B5E30070086624C /* SAMDiscoverViewController.h */,
+				4576D00A1B5E30070086624C /* SAMDiscoverViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -211,6 +233,8 @@
 		4576CFD21B5DEB570086624C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				4576D00C1B5E301F0086624C /* SAMFriendsViewController.h */,
+				4576D00D1B5E301F0086624C /* SAMFriendsViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -236,6 +260,8 @@
 			children = (
 				4576CFD61B5DEB570086624C /* SAMMainViewController.h */,
 				4576CFD71B5DEB570086624C /* SAMMainViewController.m */,
+				4576D0121B5E30FE0086624C /* SAMNavigationController.h */,
+				4576D0131B5E30FE0086624C /* SAMNavigationController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -259,6 +285,8 @@
 		4576CFDA1B5DEB570086624C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				4576D00F1B5E30350086624C /* SAMMeViewController.h */,
+				4576D0101B5E30350086624C /* SAMMeViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -421,6 +449,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4576D0161B5E48200086624C /* Adobe 黑体 Std-R.otf in Resources */,
 				4576CFB41B5DE7510086624C /* LaunchScreen.xib in Resources */,
 				4576CFB11B5DE7510086624C /* Images.xcassets in Resources */,
 			);
@@ -441,14 +470,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				4576CFF51B5E1FEA0086624C /* SAMNewFeatureViewController.m in Sources */,
+				4576D0111B5E30350086624C /* SAMMeViewController.m in Sources */,
 				4576D0021B5E20AC0086624C /* UIImage+SAMImage.m in Sources */,
 				4576CFEB1B5E1F510086624C /* SAMGuideTool.m in Sources */,
+				4576D00B1B5E30070086624C /* SAMDiscoverViewController.m in Sources */,
+				4576D0141B5E30FE0086624C /* SAMNavigationController.m in Sources */,
+				4576D00E1B5E301F0086624C /* SAMFriendsViewController.m in Sources */,
 				4576D0011B5E20AC0086624C /* AppDelegate.m in Sources */,
 				4576D0031B5E20AC0086624C /* UIView+SAMFrame.m in Sources */,
 				4576CFEC1B5E1F510086624C /* SAMSaveTool.m in Sources */,
 				4576CFF61B5E1FEA0086624C /* SAMGuideViewCell.m in Sources */,
 				4576D0041B5E20AD0086624C /* main.m in Sources */,
 				4576CFE11B5DEB570086624C /* SAMMainViewController.m in Sources */,
+				4576D0081B5E2FF40086624C /* SAMActivityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
