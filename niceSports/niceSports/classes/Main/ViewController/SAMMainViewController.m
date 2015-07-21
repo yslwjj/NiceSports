@@ -27,32 +27,10 @@
     self.view.backgroundColor = [UIColor whiteColor];
    
     [self setUpAllChildViewController];
-    
-    [self test];
+
 
 }
 
-- (void)test{
-    NSArray *familyNames =[[NSArray alloc]initWithArray:[UIFont familyNames]];
-    NSArray *fontNames;
-    NSInteger indFamily, indFont;
-    NSLog(@"[familyNames count]===%lu",(unsigned long)[familyNames count]);
-    for(indFamily=0;indFamily<[familyNames count];++indFamily)
-        
-    {
-        NSLog(@"Family name: %@", [familyNames objectAtIndex:indFamily]);
-        fontNames =[[NSArray alloc]initWithArray:[UIFont fontNamesForFamilyName:[familyNames objectAtIndex:indFamily]]];
-        
-        for(indFont=0; indFont<[fontNames count]; ++indFont)
-            
-        {
-            NSLog(@"Font name: %@",[fontNames objectAtIndex:indFont]);
-            
-        }
-    
-    }
-
-}
 
 #pragma mark - 添加所有子控制器
 - (void)setUpAllChildViewController
@@ -67,11 +45,6 @@
     SAMDiscoverViewController *discover = [[SAMDiscoverViewController alloc] init];
     
     [self setUpOneChildViewController:discover image:[UIImage imageWithOriRenderingImage:@"botbtn_find"] selImage:[UIImage imageWithOriRenderingImage:@"botbtn_find_on"] title:@"发现"];
-    
-//    // 发现
-//    UIStoryboard *storyborad = [UIStoryboard storyboardWithName:@"SAMDiscoverViewController" bundle:nil];
-//    SAMDiscoverViewController *discover = [storyborad instantiateInitialViewController];
-//    [self setUpOneChildViewController:discover image:[UIImage imageWithOriRenderingImage:@"TabBar_Discovery_new"] selImage:[UIImage imageWithOriRenderingImage:@"TabBar_Discovery_selected_new"] title:@"发现"];
     
     // 好友
     SAMFriendsViewController *friends = [[SAMFriendsViewController alloc] init];

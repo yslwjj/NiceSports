@@ -24,7 +24,7 @@
 		4576D00E1B5E301F0086624C /* SAMFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576D00D1B5E301F0086624C /* SAMFriendsViewController.m */; };
 		4576D0111B5E30350086624C /* SAMMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576D0101B5E30350086624C /* SAMMeViewController.m */; };
 		4576D0141B5E30FE0086624C /* SAMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576D0131B5E30FE0086624C /* SAMNavigationController.m */; };
-		4576D0161B5E48200086624C /* Adobe Black Std-R.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4576D0151B5E48200086624C /* Adobe Black Std-R.otf */; };
+		4576D0181B5E52050086624C /* Adobe 黑体 Std-R.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4576D0171B5E52050086624C /* Adobe 黑体 Std-R.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +73,7 @@
 		4576D0101B5E30350086624C /* SAMMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMMeViewController.m; sourceTree = "<group>"; };
 		4576D0121B5E30FE0086624C /* SAMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMNavigationController.h; sourceTree = "<group>"; };
 		4576D0131B5E30FE0086624C /* SAMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMNavigationController.m; sourceTree = "<group>"; };
-		4576D0151B5E48200086624C /* Adobe Black Std-R.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Adobe Black Std-R.otf"; sourceTree = "<group>"; };
+		4576D0171B5E52050086624C /* Adobe 黑体 Std-R.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Adobe 黑体 Std-R.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,6 @@
 			children = (
 				4576CFC91B5DEB570086624C /* classes */,
 				4576CFB01B5DE7510086624C /* Images.xcassets */,
-				4576D0151B5E48200086624C /* Adobe Black Std-R.otf */,
 				4576CFB21B5DE7510086624C /* LaunchScreen.xib */,
 				4576CFA31B5DE7510086624C /* Supporting Files */,
 			);
@@ -127,6 +126,7 @@
 		4576CFA31B5DE7510086624C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4576D0171B5E52050086624C /* Adobe 黑体 Std-R.otf */,
 				4576CFA41B5DE7510086624C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -449,7 +449,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4576D0161B5E48200086624C /* Adobe Black Std-R.otf in Resources */,
+				4576D0181B5E52050086624C /* Adobe 黑体 Std-R.otf in Resources */,
 				4576CFB41B5DE7510086624C /* LaunchScreen.xib in Resources */,
 				4576CFB11B5DE7510086624C /* Images.xcassets in Resources */,
 			);
