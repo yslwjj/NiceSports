@@ -29,7 +29,7 @@
     //设置导航条标题颜色 (复文本）
     NSMutableDictionary *titleAttr = [NSMutableDictionary dictionary];
     titleAttr[NSForegroundColorAttributeName] = [UIColor whiteColor];
-    titleAttr[NSFontAttributeName] = [UIFont systemFontOfSize:20];
+    titleAttr[NSFontAttributeName] =  [UIFont fontWithName:@"AdobeHeitiStd-Regular" size:20.0];
     [bar setTitleTextAttributes:titleAttr];
     
     
