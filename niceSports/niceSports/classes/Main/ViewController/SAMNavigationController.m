@@ -31,16 +31,11 @@
     titleAttr[NSForegroundColorAttributeName] = [UIColor whiteColor];
     titleAttr[NSFontAttributeName] =  [UIFont fontWithName:@"AdobeHeitiStd-Regular" size:20.0];
     [bar setTitleTextAttributes:titleAttr];
-    
-    
-    
 }
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
     
 }
 

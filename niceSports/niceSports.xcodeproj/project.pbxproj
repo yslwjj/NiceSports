@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20D564157356C70496A62597 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE02366509892AD5C8FF7DB /* libPods.a */; };
 		4576CFB11B5DE7510086624C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4576CFB01B5DE7510086624C /* Images.xcassets */; };
 		4576CFB41B5DE7510086624C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4576CFB21B5DE7510086624C /* LaunchScreen.xib */; };
 		4576CFC01B5DE7510086624C /* niceSportsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576CFBF1B5DE7510086624C /* niceSportsTests.m */; };
@@ -24,7 +25,7 @@
 		4576D00E1B5E301F0086624C /* SAMFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576D00D1B5E301F0086624C /* SAMFriendsViewController.m */; };
 		4576D0111B5E30350086624C /* SAMMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576D0101B5E30350086624C /* SAMMeViewController.m */; };
 		4576D0141B5E30FE0086624C /* SAMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576D0131B5E30FE0086624C /* SAMNavigationController.m */; };
-		4576D0181B5E52050086624C /* Adobe 黑体 Std-R.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4576D0171B5E52050086624C /* Adobe 黑体 Std-R.otf */; };
+		4576D0181B5E52050086624C /* Adobe Black Std-R.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4576D0171B5E52050086624C /* Adobe Black Std-R.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +74,10 @@
 		4576D0101B5E30350086624C /* SAMMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMMeViewController.m; sourceTree = "<group>"; };
 		4576D0121B5E30FE0086624C /* SAMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMNavigationController.h; sourceTree = "<group>"; };
 		4576D0131B5E30FE0086624C /* SAMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMNavigationController.m; sourceTree = "<group>"; };
-		4576D0171B5E52050086624C /* Adobe 黑体 Std-R.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Adobe 黑体 Std-R.otf"; sourceTree = "<group>"; };
+		4576D0171B5E52050086624C /* Adobe Black Std-R.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Adobe Black Std-R.otf"; sourceTree = "<group>"; };
+		8AE02366509892AD5C8FF7DB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDCCD34F469AE306B9BF3C6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E0A75CB1F7815BD8F365524B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20D564157356C70496A62597 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,12 +99,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2442AE0E4A9BF30172FE3A10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCDCCD34F469AE306B9BF3C6 /* Pods.debug.xcconfig */,
+				E0A75CB1F7815BD8F365524B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		40A420C611EBAADA6CD2EB6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AE02366509892AD5C8FF7DB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4576CF971B5DE7510086624C = {
 			isa = PBXGroup;
 			children = (
 				4576CFA21B5DE7510086624C /* niceSports */,
 				4576CFBC1B5DE7510086624C /* niceSportsTests */,
 				4576CFA11B5DE7510086624C /* Products */,
+				2442AE0E4A9BF30172FE3A10 /* Pods */,
+				40A420C611EBAADA6CD2EB6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,7 +150,7 @@
 		4576CFA31B5DE7510086624C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4576D0171B5E52050086624C /* Adobe 黑体 Std-R.otf */,
+				4576D0171B5E52050086624C /* Adobe Black Std-R.otf */,
 				4576CFA41B5DE7510086624C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -375,9 +399,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4576CFC31B5DE7510086624C /* Build configuration list for PBXNativeTarget "niceSports" */;
 			buildPhases = (
+				12BA79788CC9DDD8FE1247D3 /* Check Pods Manifest.lock */,
 				4576CF9C1B5DE7510086624C /* Sources */,
 				4576CF9D1B5DE7510086624C /* Frameworks */,
 				4576CF9E1B5DE7510086624C /* Resources */,
+				B0C80CF3C03A618DC1C34CD1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -449,7 +475,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4576D0181B5E52050086624C /* Adobe 黑体 Std-R.otf in Resources */,
+				4576D0181B5E52050086624C /* Adobe Black Std-R.otf in Resources */,
 				4576CFB41B5DE7510086624C /* LaunchScreen.xib in Resources */,
 				4576CFB11B5DE7510086624C /* Images.xcassets in Resources */,
 			);
@@ -463,6 +489,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12BA79788CC9DDD8FE1247D3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0C80CF3C03A618DC1C34CD1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4576CF9C1B5DE7510086624C /* Sources */ = {
@@ -598,6 +657,7 @@
 		};
 		4576CFC41B5DE7510086624C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCDCCD34F469AE306B9BF3C6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -610,6 +670,7 @@
 		};
 		4576CFC51B5DE7510086624C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A75CB1F7815BD8F365524B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -673,6 +734,7 @@
 				4576CFC51B5DE7510086624C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4576CFC61B5DE7510086624C /* Build configuration list for PBXNativeTarget "niceSportsTests" */ = {
 			isa = XCConfigurationList;
@@ -681,6 +743,7 @@
 				4576CFC81B5DE7510086624C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
